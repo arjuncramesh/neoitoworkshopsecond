@@ -3,17 +3,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
-}
-.container-rectangle{
-    padding: 0rem 10rem 0rem 10rem;
-    max-width: 1920px;
-}
-.container-rectangle-bring{
-    padding: 0rem 16rem 0rem 10rem;
-    max-width: 1920px;
-}
-.container-people{
-    padding: 0rem 7rem 0rem 7rem;
+    mix-blend-mode: normal;
 }
 .ok-iam-in{
     background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, #FFF5F2 100%);
@@ -32,20 +22,18 @@
 .orange{
     color: #FF6E43;
 }
-.container1{
-    padding: 0rem 1rem;
-}
 .leaf{
     background-image: url('../images/testimonials-bg-1.png');
 }
-.searchbar{ 
+.searchbar{
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
     background: transparent;
-    border-color: white;
     border-bottom: 2px solid white;
-
+}
+.searchbar:focus-within{
+    border-bottom: 2px solid blue;
 }
 .searchbar:focus{
     border: blue;
@@ -65,12 +53,3 @@
 .responsive{
     display: block;
   }
- @media only screen and (max-width: 600px) {
-    .container-rectangle{
-        padding: 0rem 1rem 0rem 1rem;
-    }
-    .container-rectangle-bring{
-        padding: 0rem 1rem 0rem 1rem;
-    }
-  }
-  
